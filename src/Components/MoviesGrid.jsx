@@ -1,6 +1,6 @@
 import React from "react";
 import movies from "../data/movies.json";
-import { MovieCard } from "./MovieCard";
+import MovieCard from "./MovieCard";
 
 const MoviesGrid = () => {
   return (
