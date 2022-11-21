@@ -1,3 +1,19 @@
 .movieCard {
-  color: red;
+  list-style: none;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.movieImage {
+  border-radius: 0.625rem;
+  background-color: azure;
+  height: 18rem;
+  width: 13rem;
+}
+
+@media (max-width: 35rem) {
+  .movieImage {
+    width: 90%;
+    height: auto;
+  }
 }
